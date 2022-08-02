@@ -9,3 +9,11 @@
 /.umi-test
 /dist
 /.mfsu
+
+# 微应用依赖
+/micro-app/*/src/.umi
+/micro-app/*/src/.umi-production
+/micro-app/*/node_modules
+/micro-app/*/.umi
+/micro-app/*/.umi-production
+/micro-app/*/pnpm-lock.yaml

@@ -27,6 +27,9 @@ export default defineConfig({
   theme: {
     'primary-color': defaultSettings.primaryColor,
   },
+  qiankun: {
+    master: {},
+  },
   routes,
   npmClient: 'pnpm',
 });
